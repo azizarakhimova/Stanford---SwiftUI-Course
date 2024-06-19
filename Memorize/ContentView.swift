@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    let emojis: Array<String> = ["🧟","🧳","🥰","👻"]  //Array<String> can be also written as [String]
+   
+    
     var body: some View {
         HStack{
-            CardView(isFaceUp: true)
-            CardView()
-            CardView()
-            CardView()
+            ForEach(emojis.indices, id: \.self) {i in
+                CardView(content:emojis[i])
+            }
         }
         .padding()
         .foregroundColor(.orange)
@@ -26,7 +28,7 @@ struct ContentView: View {
 
 
 struct CardView: View {
-    
+    let content: String
     @State var isFaceUp: Bool = false /*
                                 if -> var isFaceUp: Bool -> then i must give it a value when calling this view
                                 if -> var isFaceUp: Bool = false -> when we give it default value, it is not mandatory to give it a value, but still can call this argument if i want
@@ -39,8 +41,7 @@ struct CardView: View {
             if isFaceUp {
                 base.foregroundColor(.white)
                 base.strokeBorder(lineWidth: 2)
-                Text("👻")
-                    .font(.largeTitle)
+                Text(content).font(.largeTitle)
             } else{
                 base
             }
