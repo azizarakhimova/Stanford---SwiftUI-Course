@@ -16,6 +16,7 @@
 		AE2C47E72C29465F004FCD1C /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C47E62C29465F004FCD1C /* AspectVGrid.swift */; };
 		AEA8C8392C46361A009A7CB8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8C8382C46361A009A7CB8 /* CardView.swift */; };
 		AEA8C83B2C4645EB009A7CB8 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8C83A2C4645EB009A7CB8 /* Pie.swift */; };
+		AEA8C83D2C47847F009A7CB8 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8C83C2C47847F009A7CB8 /* Cardify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		AE2C47E62C29465F004FCD1C /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 		AEA8C8382C46361A009A7CB8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		AEA8C83A2C4645EB009A7CB8 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		AEA8C83C2C47847F009A7CB8 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				AE1B4C702C2140C1003B4464 /* MemorizeApp.swift */,
 				AE1B4C722C2140C1003B4464 /* EmojiMemoryGameView.swift */,
+				AEA8C83C2C47847F009A7CB8 /* Cardify.swift */,
 				AEA8C8382C46361A009A7CB8 /* CardView.swift */,
 				AEA8C83A2C4645EB009A7CB8 /* Pie.swift */,
 				AE2C47E62C29465F004FCD1C /* AspectVGrid.swift */,
@@ -154,6 +157,7 @@
 			files = (
 				AE1B4C732C2140C1003B4464 /* EmojiMemoryGameView.swift in Sources */,
 				AE1B4C712C2140C1003B4464 /* MemorizeApp.swift in Sources */,
+				AEA8C83D2C47847F009A7CB8 /* Cardify.swift in Sources */,
 				AE124D662C23F74000FDD213 /* MemoryGame.swift in Sources */,
 				AE2C47E72C29465F004FCD1C /* AspectVGrid.swift in Sources */,
 				AEA8C83B2C4645EB009A7CB8 /* Pie.swift in Sources */,
